@@ -126,6 +126,29 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation-name: double-rotate-icon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes double-rotate-icon{
+
+    0%{
+        rotate: 0;
+    }
+
+    90%{
+        rotate: 270deg;
+    }
+
+    100%{
+        rotate: 0;
+    }
+}
+
+    /* Esercizio 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
