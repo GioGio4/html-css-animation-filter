@@ -104,10 +104,25 @@
     border-radius: 50px;
 }
 
-
+/* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotate-icon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes rotate-icon{
+    0% {
+        rotate: 0;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
